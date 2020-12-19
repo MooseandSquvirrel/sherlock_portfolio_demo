@@ -7,7 +7,6 @@ import time as t
 import json
 from datetime import datetime, date, time, timedelta
 import datetime
-#import dateutil
 import sys
 sys.path.insert(0, '/Users/agardner/bocal/get_hours')
 import os
@@ -20,5 +19,5 @@ def client():
     session = OAuth2Session(
         client_id,
         client_secret)
-    token = session.fetch_token(url+"/oauth/token", grant_type='client_credentials') #if I dont use this is it storing token in session too 
+    token = session.fetch_token(url+"/oauth/token", grant_type='client_credentials')
     return session

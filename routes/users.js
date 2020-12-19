@@ -17,7 +17,6 @@ router.post('/', function(req, result, next) {
     if (err) {
       return console.error(err.message);
     } else {
-      //let sql = 'select * from sher_auth'
       let sql = 'SELECT one email, two pwd FROM sher_auth WHERE one = ?';
       console.log('Connected to the in-memory SQlite database.');
       db.get(sql, [email], (err, row) => {
@@ -33,7 +32,6 @@ router.post('/', function(req, result, next) {
               console.log(err)
               result.render('login', {message:"Try Again."})
             } 
-            // EVENTUALLY MAKE WHITELIST TABLE TO CHECK INSTEAD OF jamie@42.us.org EMAIL
             if (res && email == 'REDACTED') {
               result.render('index', {cadet: "Who's it gonna be.", answer: "Tis time to deduce..."})
             } else {
