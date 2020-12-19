@@ -1,0 +1,48 @@
+<%- include header.ejs %>
+
+<body>
+
+  <div id="login_container" class="container">
+      <div id="login" class="container py-5 ">
+   
+          <span id="logo_span" class="pb-5">
+            <img id="logo" src="/images/sherlock_pic.png">
+          </span>
+       
+        <div class="row justify-content-center">
+          <div class="col">
+            <span class="login-form-title">
+                <h3 class="pb-3">Login</h3>
+            </span>
+              <% if (message) {%>
+                <div class="pb-3 login-form-text">
+                  <span>
+                      <%= message %>
+                  </span>
+                </div
+              <% } %>
+          
+              <div class="form-group">
+                <span><img id="email_logo" class="input_email_logo" src="/images/pngfuel.com.png"></span>
+                <input id="login-input1" name="email" placeholder="Username" onfocus="anim_email()" onfocusout="anim_email2()" autocomplete="off">
+              </div>
+              <div class="form-group">
+                <span><img id="key_logo" class="input_key_logo" src="/images/key.png"></span>
+                <input id="login-input2" type="password" name="password" placeholder="Password" onfocus="anim_key()" onfocusout="anim_key2()" autocomplete="off">
+              </div>
+              <div class="login-btn-container">
+                  <a class="btn-dark login-btn raise up" href="/main">Login</a>
+              </div>
+            
+          </div>
+        </div>
+      </div> 
+  </div>
+        
+</body>
+
+<footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</footer>
+</html>
