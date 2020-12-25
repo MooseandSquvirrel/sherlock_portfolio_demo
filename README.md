@@ -120,7 +120,7 @@ To show basic demo purposes of the application, please visit: <a href="https://s
 ## Usage
 
 <p align="center">
-  <img width="800" height="480" src="public/images/gifs/cleanFullGiffy.gif">
+  <img width="800" height="500" src="https://github.com/MooseandSquvirrel/gif_sherlock/blob/master/full_sherly.gif">
 </p>
 
 _For more examples, try it out [Demo Again](https://sherlock-portfolio.herokuapp.com/)_
