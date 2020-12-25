@@ -64,11 +64,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -123,7 +120,7 @@ To show basic demo purposes of the application, please visit: <a href="https://s
 ## Usage
 
 <p align="center">
-  <img width="640" height="480" src="public/images/gifs/greenStandard480.gif">
+  <img width="800" height="480" src="public/images/gifs/cleanFullGiffy.gif">
 </p>
 
 _For more examples, try it out [Demo Again](https://sherlock-portfolio.herokuapp.com/)_
