@@ -135,7 +135,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Andy Gardner - web.dev.bud1@gmail.com
 
 Project Link: [https://github.com/MooseandSquvirrel/sherlock_portfolio_demo](https://github.com/MooseandSquvirrel/sherlock_portfolio_demo)
 
