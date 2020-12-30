@@ -99,7 +99,7 @@ staff/employee permissions, API scope and other necessary info not accessible to
 database, confidential information and files integral to its functioning have therefore been removed. 
 Authentication has also been removed from the Login page, so type whatever you'd like!
 
-To show basic demo purposes of the application, please visit: <a href="https://sherlock-portfolio.herokuapp.com/">Sherlock Demo</a>
+To see a demo of the application, please visit: <a href="https://sherlock-portfolio.herokuapp.com/">Sherlock Demo</a>
 <br />(Example names to search can be found in the drop-down from clicking the input box.)
 
 ### Prerequisites
